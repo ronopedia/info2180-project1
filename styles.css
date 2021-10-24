@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    margin: 0 auto;
+    margin: auto;
     max-width: 960px;
     width: 100%;
     display: flex;
@@ -15,7 +15,8 @@ body {
 }
 
 .container h1 {
-    width:60%;
+    width:50%;
+    padding-left: 20px;
 }
 .container nav ul {
     padding: 0;
@@ -50,6 +51,7 @@ a:hover {
 .overview-hero {
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-left: 50px;
     background-color: #E2E8F0;
     height: 100%;
     width: 100%;
@@ -62,30 +64,32 @@ a:hover {
 
 .overview-hero-text {
     text-align: left;
-    padding-left: 6%;
+    padding-left: 10%;
+    padding-right: 100px;
     
 }
 
 .learn-about h2 {
     font-size:24px;
     width:100%;
-    padding-right: 10%;
+    padding-right: 5px;
     color: #48BB78;
+    
 }
 
 .learn-about .container {
     display:flex;
     flex-direction: column;
-    align-items: center;
+    align-content: center;
 }
 
 .cards {
     display:grid;
     grid-gap: 20px;
-    grid-template-columns: 270px 270px 270px;
+    grid-template-columns: auto auto auto;
     grid-auto-flow: rows;
-    padding-top: 20px;
     margin-bottom: 20px;
+    
 }
 
 .card {
@@ -100,13 +104,15 @@ a:hover {
 }
 .card-body {
     grid-row: 2;
-    margin:1%;
+    margin:5%;
+    margin-right: 5%;
     
 }
 
 .card-body h3 {
     color: #48BB78;
     font-size:21px;
+    margin:1%;
 }
 
 .testing {
@@ -114,18 +120,22 @@ a:hover {
     color:white;
     padding-top: 70px;
     padding-bottom: 70px;
+  
 }
 
 .testing-desciption {
     text-align: left;
     color: white;
+    padding-right: 70px;
+
+    
 }
 
 .cta {
-    margin: auto;
+    margin-right: 100px;
     width:33%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
     padding-left: 13px;
 }
 
@@ -133,7 +143,11 @@ a:hover {
     text-align:center;
     color: white;
     background-color: #48BB78;
-    border-radius: 0px;
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .article-body {
@@ -183,20 +197,23 @@ article a {
     display: flex;
     flex-direction: column;
     align-items: center;   
+    justify-content: center;
     color:white 
 }
 
 .newsletter .container p{
-    padding-left: 170px;
-    padding-right: 70px; 
+    padding-left: 285px;
+    padding-right: 170px; 
 }
 
 .newsletter button {
     background-color: #5A67D8;
     width:100px;
+    height: 45px;
     outline:none;
     border: none;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 5px;
 }
 
@@ -221,7 +238,8 @@ img {
 }
 
 form input {
-    width:200px;
+    width: 270px;
+    height: 25px;
     outline:none;
     border: none;
     padding: 10px;
