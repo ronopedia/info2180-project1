@@ -25,3 +25,19 @@ a,li {
 a:hover {
     color:#5A67D8;
 }
+
+.overview-hero{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #E2E8F0;
+    height: 100%;
+    width: 100%;
+    display:flex;
+}
+
+.learn-about h2{
+    font-size:24px;
+    width:100%;
+    padding-right: 10%;
+    color: #48BB78;
+}
